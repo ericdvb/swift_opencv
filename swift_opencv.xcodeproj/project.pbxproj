@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FE287D1B923721004BD454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE287C1B923721004BD454 /* AppDelegate.swift */; };
+		07FE287F1B923721004BD454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE287E1B923721004BD454 /* ViewController.swift */; };
+		07FE28811B923721004BD454 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FE28801B923721004BD454 /* Images.xcassets */; };
+		07FE28841B923721004BD454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FE28821B923721004BD454 /* Main.storyboard */; };
+		07FE28901B923721004BD454 /* swift_opencvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE288F1B923721004BD454 /* swift_opencvTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FE288A1B923721004BD454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FE286F1B923721004BD454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FE28761B923721004BD454;
+			remoteInfo = swift_opencv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FE28771B923721004BD454 /* swift_opencv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_opencv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FE287B1B923721004BD454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FE287C1B923721004BD454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FE287E1B923721004BD454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07FE28801B923721004BD454 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07FE28831B923721004BD454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FE28891B923721004BD454 /* swift_opencvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_opencvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FE288E1B923721004BD454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FE288F1B923721004BD454 /* swift_opencvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_opencvTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FE28741B923721004BD454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE28861B923721004BD454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FE286E1B923721004BD454 = {
+			isa = PBXGroup;
+			children = (
+				07FE28791B923721004BD454 /* swift_opencv */,
+				07FE288C1B923721004BD454 /* swift_opencvTests */,
+				07FE28781B923721004BD454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FE28781B923721004BD454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FE28771B923721004BD454 /* swift_opencv.app */,
+				07FE28891B923721004BD454 /* swift_opencvTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FE28791B923721004BD454 /* swift_opencv */ = {
+			isa = PBXGroup;
+			children = (
+				07FE287C1B923721004BD454 /* AppDelegate.swift */,
+				07FE287E1B923721004BD454 /* ViewController.swift */,
+				07FE28801B923721004BD454 /* Images.xcassets */,
+				07FE28821B923721004BD454 /* Main.storyboard */,
+				07FE287A1B923721004BD454 /* Supporting Files */,
+			);
+			path = swift_opencv;
+			sourceTree = "<group>";
+		};
+		07FE287A1B923721004BD454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FE287B1B923721004BD454 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07FE288C1B923721004BD454 /* swift_opencvTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FE288F1B923721004BD454 /* swift_opencvTests.swift */,
+				07FE288D1B923721004BD454 /* Supporting Files */,
+			);
+			path = swift_opencvTests;
+			sourceTree = "<group>";
+		};
+		07FE288D1B923721004BD454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FE288E1B923721004BD454 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FE28761B923721004BD454 /* swift_opencv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FE28931B923721004BD454 /* Build configuration list for PBXNativeTarget "swift_opencv" */;
+			buildPhases = (
+				07FE28731B923721004BD454 /* Sources */,
+				07FE28741B923721004BD454 /* Frameworks */,
+				07FE28751B923721004BD454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift_opencv;
+			productName = swift_opencv;
+			productReference = 07FE28771B923721004BD454 /* swift_opencv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FE28881B923721004BD454 /* swift_opencvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FE28961B923721004BD454 /* Build configuration list for PBXNativeTarget "swift_opencvTests" */;
+			buildPhases = (
+				07FE28851B923721004BD454 /* Sources */,
+				07FE28861B923721004BD454 /* Frameworks */,
+				07FE28871B923721004BD454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FE288B1B923721004BD454 /* PBXTargetDependency */,
+			);
+			name = swift_opencvTests;
+			productName = swift_opencvTests;
+			productReference = 07FE28891B923721004BD454 /* swift_opencvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FE286F1B923721004BD454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Eric Willenson";
+				TargetAttributes = {
+					07FE28761B923721004BD454 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					07FE28881B923721004BD454 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 07FE28761B923721004BD454;
+					};
+				};
+			};
+			buildConfigurationList = 07FE28721B923721004BD454 /* Build configuration list for PBXProject "swift_opencv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FE286E1B923721004BD454;
+			productRefGroup = 07FE28781B923721004BD454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FE28761B923721004BD454 /* swift_opencv */,
+				07FE28881B923721004BD454 /* swift_opencvTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FE28751B923721004BD454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE28811B923721004BD454 /* Images.xcassets in Resources */,
+				07FE28841B923721004BD454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE28871B923721004BD454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FE28731B923721004BD454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE287F1B923721004BD454 /* ViewController.swift in Sources */,
+				07FE287D1B923721004BD454 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FE28851B923721004BD454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE28901B923721004BD454 /* swift_opencvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FE288B1B923721004BD454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FE28761B923721004BD454 /* swift_opencv */;
+			targetProxy = 07FE288A1B923721004BD454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FE28821B923721004BD454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FE28831B923721004BD454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FE28911B923721004BD454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07FE28921B923721004BD454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07FE28941B923721004BD454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = swift_opencv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07FE28951B923721004BD454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = swift_opencv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07FE28971B923721004BD454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swift_opencvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_opencv.app/Contents/MacOS/swift_opencv";
+			};
+			name = Debug;
+		};
+		07FE28981B923721004BD454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swift_opencvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_opencv.app/Contents/MacOS/swift_opencv";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FE28721B923721004BD454 /* Build configuration list for PBXProject "swift_opencv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FE28911B923721004BD454 /* Debug */,
+				07FE28921B923721004BD454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FE28931B923721004BD454 /* Build configuration list for PBXNativeTarget "swift_opencv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FE28941B923721004BD454 /* Debug */,
+				07FE28951B923721004BD454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07FE28961B923721004BD454 /* Build configuration list for PBXNativeTarget "swift_opencvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FE28971B923721004BD454 /* Debug */,
+				07FE28981B923721004BD454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FE286F1B923721004BD454 /* Project object */;
+}

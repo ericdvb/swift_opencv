@@ -12,6 +12,11 @@
 		07FE28811B923721004BD454 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FE28801B923721004BD454 /* Images.xcassets */; };
 		07FE28841B923721004BD454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FE28821B923721004BD454 /* Main.storyboard */; };
 		07FE28901B923721004BD454 /* swift_opencvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE288F1B923721004BD454 /* swift_opencvTests.swift */; };
+		07FE289A1B923E3C004BD454 /* libopencv_core.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE28991B923E3C004BD454 /* libopencv_core.3.0.0.dylib */; };
+		07FE289C1B923E4D004BD454 /* libopencv_highgui.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE289B1B923E4D004BD454 /* libopencv_highgui.3.0.0.dylib */; };
+		07FE289E1B923ECD004BD454 /* libopencv_video.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FE289D1B923ECD004BD454 /* libopencv_video.3.0.0.dylib */; };
+		07FE28A21B92407B004BD454 /* Cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07FE28A01B92407B004BD454 /* Cam.cpp */; };
+		07FE28A51B9242A3004BD454 /* ObjCam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07FE28A41B9242A3004BD454 /* ObjCam.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 		07FE28891B923721004BD454 /* swift_opencvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_opencvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FE288E1B923721004BD454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07FE288F1B923721004BD454 /* swift_opencvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_opencvTests.swift; sourceTree = "<group>"; };
+		07FE28991B923E3C004BD454 /* libopencv_core.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.0.0.dylib; path = ../../../../../../usr/local/Cellar/opencv3/3.0.0/lib/libopencv_core.3.0.0.dylib; sourceTree = "<group>"; };
+		07FE289B1B923E4D004BD454 /* libopencv_highgui.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.0.0.dylib; path = ../../../../../../usr/local/Cellar/opencv3/3.0.0/lib/libopencv_highgui.3.0.0.dylib; sourceTree = "<group>"; };
+		07FE289D1B923ECD004BD454 /* libopencv_video.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.3.0.0.dylib; path = ../../../../../../usr/local/Cellar/opencv3/3.0.0/lib/libopencv_video.3.0.0.dylib; sourceTree = "<group>"; };
+		07FE289F1B92407B004BD454 /* swift_opencv-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_opencv-Bridging-Header.h"; sourceTree = "<group>"; };
+		07FE28A01B92407B004BD454 /* Cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cam.cpp; sourceTree = "<group>"; };
+		07FE28A11B92407B004BD454 /* Cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cam.h; sourceTree = "<group>"; };
+		07FE28A31B9242A3004BD454 /* ObjCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCam.h; sourceTree = "<group>"; };
+		07FE28A41B9242A3004BD454 /* ObjCam.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCam.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FE289E1B923ECD004BD454 /* libopencv_video.3.0.0.dylib in Frameworks */,
+				07FE289C1B923E4D004BD454 /* libopencv_highgui.3.0.0.dylib in Frameworks */,
+				07FE289A1B923E3C004BD454 /* libopencv_core.3.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +73,9 @@
 		07FE286E1B923721004BD454 = {
 			isa = PBXGroup;
 			children = (
+				07FE289D1B923ECD004BD454 /* libopencv_video.3.0.0.dylib */,
+				07FE289B1B923E4D004BD454 /* libopencv_highgui.3.0.0.dylib */,
+				07FE28991B923E3C004BD454 /* libopencv_core.3.0.0.dylib */,
 				07FE28791B923721004BD454 /* swift_opencv */,
 				07FE288C1B923721004BD454 /* swift_opencvTests */,
 				07FE28781B923721004BD454 /* Products */,
@@ -80,6 +99,11 @@
 				07FE28801B923721004BD454 /* Images.xcassets */,
 				07FE28821B923721004BD454 /* Main.storyboard */,
 				07FE287A1B923721004BD454 /* Supporting Files */,
+				07FE28A01B92407B004BD454 /* Cam.cpp */,
+				07FE28A11B92407B004BD454 /* Cam.h */,
+				07FE289F1B92407B004BD454 /* swift_opencv-Bridging-Header.h */,
+				07FE28A31B9242A3004BD454 /* ObjCam.h */,
+				07FE28A41B9242A3004BD454 /* ObjCam.mm */,
 			);
 			path = swift_opencv;
 			sourceTree = "<group>";
@@ -208,8 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FE28A21B92407B004BD454 /* Cam.cpp in Sources */,
 				07FE287F1B923721004BD454 /* ViewController.swift in Sources */,
 				07FE287D1B923721004BD454 /* AppDelegate.swift in Sources */,
+				07FE28A51B9242A3004BD454 /* ObjCam.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +353,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/opencv3/3.0.0/include,
+				);
 				INFOPLIST_FILE = swift_opencv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.0.0/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_opencv/swift_opencv-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,10 +392,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/opencv3/3.0.0/include,
+				);
 				INFOPLIST_FILE = swift_opencv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.0.0/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_opencv/swift_opencv-Bridging-Header.h";
 			};
 			name = Release;
 		};
